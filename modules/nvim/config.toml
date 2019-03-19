@@ -1,0 +1,5 @@
+[[packages]]
+name = "neovim"
+
+[[after_commit]]
+shell = "nvim --headless -c PlugIns -c exit -c exit"
